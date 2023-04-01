@@ -31,7 +31,39 @@ nav{
     transition:transform .6s ease;
  }
 
- footer{
+
+.sobremi{
+    margin-top:5px;
+    background:url('https://www.planwallpaper.com/static/images/wallpaper-2594020_1wgPZqQ.jpg') no-repeat ;
+    background-size:100%;
+    border-radius:10px 10px 0 0;
+   
+}
+.caja{
+    margin:15px auto;
+}
+
+
+.container2{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-bottom:1px solid;
+    border-radius:0 0 10px 10px;
+    text-align:justify;
+    font-family:'Raleway';
+}
+
+.sobremi h1, .servicio h1{
+   font-family:'comfortaa','sans-serif';
+   font-size:60px;
+   text-align:center;
+   padding:50px 0;
+   color:rgba(60, 21, 131, 0.9);
+}
+
+/* Footer */
+footer{
     font-family:'Serif';
     margin-top:10px;
     padding:20px;
