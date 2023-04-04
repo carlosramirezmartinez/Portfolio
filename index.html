@@ -20,21 +20,21 @@
     <nav class="nav1">
          <ul>
          <li><a href="#">Home</a></li>
-         <li><a href="#sobremi">Sobre mi</a></li>
-         <li><a href="#servicios">Servicios</a></li>
-         <li><a href="#contacto">Contacto</a></li>
+         <li><a href="#sobreminav">Sobre mi</a></li>
+         <li><a href="#serviciosnav">Servicios</a></li>
+         <li><a href="#contactonav">Contacto</a></li>
          </ul>
      </nav>    
      </header>
 
         <!--- Contenido-->
-        <div id="sobremi" class="sobremi"><h1>Sobre mi!</h1>
+        <div id="sobreminav" class="sobremi"><h1>Sobre mi!</h1>
         <div class="container2"> 
             <p class="caja">Texto caja</p><hr>
         </div>
        </div>
        
-       <div id="servicios" class="servicio"><h1>servicios</h1>
+       <div id="serviciosnav" class="servicio"><h1>servicios</h1>
        <div class="container2"> 
        <pre>Prueba</pre><hr>
        <h3>Progreso</h3>
@@ -50,6 +50,30 @@
        </div>
        </div>
     </div> 
+
+    <!-- Contacto-->
+    <div id="contactonav" class="contacto">
+    <h1>Contacte con nosotros</h1>
+    <form class="container2" action="/"  method="post">
+        <div>
+          <label>Nombre</label>
+          <input type="text" placeholder="Introduza su Nombre" required>
+          </div>
+          <div>
+          <label>Email</label>
+          <input type="email" placeholder="Introduza su Email" required >
+          </div>
+          <div>
+          <label>Telefono</label>
+          <input type="tel" placeholder="Introduza su Telefono">
+          </div>
+          <div>
+          <label>Mensaje</label>
+          <textarea id="msg" placeholder="Introduza su Mensaje"></textarea>
+          </div>
+          <button type="Submit" name="button" value="Submit">Hablamos!</button>
+      </form>
+           </div>
     <!-- Footer-->
      <footer><p> Carlos Ramirez Copyright &copy; 2023. Todos los derechos reservados.</p></footer>
 

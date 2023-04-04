@@ -62,6 +62,22 @@ nav{
    color:rgba(60, 21, 131, 0.9);
 }
 
+/* Contacto */
+
+.contacto > .container2 > button{
+    padding:15px;
+    width:200px;
+    margin:10px 18%;
+    font-weight: 800;
+    letter-spacing:5px;
+    color:#ffffff;
+    box-shadow: 2px 2px 2px rgb(85, 78, 151);
+    text-transform: uppercase;
+    background:#755aa7;
+    border-radius: 4px;
+    border:0;
+  }
+  
 /* Footer */
 footer{
     font-family:'Serif';
